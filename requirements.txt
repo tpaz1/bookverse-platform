@@ -1,5 +1,5 @@
 # BookVerse Core Library - installed directly from bookverse-infra repository
-git+https://github.com/yonatanp-jfrog/bookverse-infra.git@main#subdirectory=libraries/bookverse-core
+git+https://github.com/tpaz1/bookverse-infra.git@main#subdirectory=libraries/bookverse-core
 
 # Additional platform-specific dependencies
 httpx==0.27.0

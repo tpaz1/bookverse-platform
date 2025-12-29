@@ -66,7 +66,7 @@ jobs:
       - name: "[Setup] Checkout bookverse-infra for shared scripts"
         uses: actions/checkout@v4
         with:
-          repository: 'yonatanp-jfrog/bookverse-infra'
+          repository: 'tpaz1/bookverse-infra'
           ref: 'main'
           path: 'bookverse-infra'
 
@@ -152,7 +152,7 @@ jobs:
       - name: "[Setup] Checkout bookverse-infra for shared promotion library"
         uses: actions/checkout@v4
         with:
-          repository: 'yonatanp-jfrog/bookverse-infra'
+          repository: 'tpaz1/bookverse-infra'
           ref: 'main'
           path: 'bookverse-infra'
 
