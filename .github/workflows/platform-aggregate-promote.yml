@@ -77,7 +77,7 @@ jobs:
           cache: 'pip'
 
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-platform-github
@@ -168,7 +168,7 @@ jobs:
           echo "✅ Python dependencies installed"
 
       - name: "[Setup] JFrog CLI"
-        uses: EyalDelarea/setup-jfrog-cli@swampUpAppTrust
+        uses: jfrog/setup-jfrog-cli@v4
         id: jfrog-cli-auth
         with:
           oidc-provider-name: bookverse-platform-github
