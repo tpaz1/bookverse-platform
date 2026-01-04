@@ -1,4 +1,4 @@
 applications:
-  - key: ${PROJECT_KEY:-bookverse}-platform
+  - key: bookverse-platform
     seeds:
       application: 2.1.15
